@@ -1,0 +1,52 @@
+.home {
+    position: relative;
+  }
+  .home img {
+    width: 100%;
+    height: 700px;
+  }
+  .home__item {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+  
+  }
+  .home__item img {
+    height: 300px;
+    width: 300px;
+  }
+  .home__footer{
+    height:200px;
+    width:800px;
+    background-color: rgb(201, 19, 19);
+    position: absolute;
+    bottom:10%;
+    left:25%;
+  }
+  .home__footer img{
+    height:50px;
+  }
+  .card{
+    overflow:hidden;
+  }
+  .card img {
+    transform: scale(1);
+  }
+  .card img:hover{
+    transform: scale(1.1);
+  }
+  .kinh{
+    position: absolute;
+    top: 21%;
+    height: 50px;
+    width: 150px;
+    left: 55%;
+    border :none
+  }
+  .kinh img {
+      height:100%;
+      width: 100%;
+  }
